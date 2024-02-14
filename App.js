@@ -12,12 +12,13 @@ export default function App() {
 
   function addGoalHandler() {
     setCourseGoals(currentCourseGoals => [...currentCourseGoals, {text: enteredGoalText, id: Math.random().toString()}]); // copy prevstate
+    setEnteredGoalText('');
   };
 
   return (
     <View style={styles.appContainer}>
       <View style={styles.inputContainer}>
-        <TextInput style={styles.textInput} placeholder='Your goal' onChangeText={goalInputHandler}/>
+        <TextInput style={styles.textInput} value={enteredGoalText} placeholder='Your goal' onChangeText={goalInputHandler}/>
         <Button title="Add Goal" onPress={addGoalHandler}></Button>
       </View>
       <View style={styles.goalsContainer}>
