@@ -1,32 +1,23 @@
-React Native Goals App
+# React Native Goals App
 
 This project is a simple React Native app that allows users to set and manage goals. Users can input goals and view them in a scrollable list.
 
-Features
+## Features
+- Add new goals using a text input and button.
+- Display a list of goals in a scrollable view.
+- Automatically assigns a unique ID to each goal.
 
-Add new goals using a text input and button.
+## Technologies Used
+- **React Native**: Framework for building mobile apps.
+- **JavaScript**: Programming language used for app logic.
+- **Expo**: Framework and platform for universal React applications.
 
-Display a list of goals in a scrollable view.
+## Installation
 
-Automatically assigns a unique ID to each goal.
-
-
-Technologies Used
-
-React Native: Framework for building mobile apps.
-
-JavaScript: Programming language used for app logic.
-
-Expo: Framework and platform for universal React applications.
-
-
-Installation
-
-1. Clone the Repository:
-
-git clone https://github.com/your-username/react-native-goals-app.git
-cd react-native-goals-app
-
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/react-native-goals-app.git
+   cd react-native-goals-app
 
 2. Install Dependencies: Ensure you have Node.js and Expo CLI installed, then run:
 
@@ -103,5 +94,11 @@ Screenshots
 
 Contributing
 
-Contributions are welcome! If you have suggestions for improvements
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+
 
